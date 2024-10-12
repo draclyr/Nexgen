@@ -1,7 +1,4 @@
-# Nexgen
-<h1>
-💻free template for general use, fast, advanced and compatible with all browsers and platforms
-</h1>
+# About Nexgen
 
 <div align="center">
 <h2 text-align="center">
@@ -29,7 +26,7 @@ But I also left a professional section for this topic😏:</p>
 <p>
 You can also put descriptions about yourself and your work field on the main page of the template and display work news or popular posts in the other part😇
 </p>
-<img src="https://files.fm/thumb_show.php?i=8vhmgsfr8b">
+<img src="https://files.fm/thumb_show.php?i=5wm4vr8y5e"></a>
 </div>
 
 <div align="center">

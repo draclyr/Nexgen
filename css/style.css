@@ -60,7 +60,6 @@ a:hover {
     color: #B7E0FF;
 }
 
-
 .cta {
     display: inline-block;
     padding: 5px 20px;
@@ -85,7 +84,6 @@ a:hover {
     direction: none;
 }
 
-
 .brand h1 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -95,7 +93,6 @@ a:hover {
 .brand h1 span {
     color: #B7E0FF;
 }
-
 
 img {
     max-width: 100%;
@@ -324,6 +321,7 @@ img {
 
 /* End Hero Section */
 
+
 /* services */
 .services {
     margin-top: 5em;
@@ -362,6 +360,7 @@ img {
 }
 
 /* End services */
+
 
 /* Projects section */
 #projects .projects {
@@ -494,6 +493,16 @@ img {
     margin-top: 10rem;
 }
 
+.see-more-btn {
+    color: #DFF6FF;
+    float: right;
+}
+
+.see-more-btn:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
 .site_boxes_content .box1 {
     margin: 2rem;
 }
@@ -520,6 +529,10 @@ img {
     border-bottom: 1px solid #DFF6FF;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.site_boxes_content .box .title i {
+    margin-left: 1rem;
 }
 
 .site_boxes_content .box .pic img {
@@ -551,9 +564,8 @@ img {
     font-size: 12px;
 }
 
-.site_boxes_content .box .desc img {
-    width: 15px;
-    padding-bottom: 3px;
+.site_boxes_content .box .desc i {
+    margin-left: 1rem;
 }
 
 .site_boxes_content .box .post_itme_bx {
@@ -563,7 +575,6 @@ img {
     display: inline-block;
     width: 100%;
 }
-
 
 .site_boxes_content .box .post_itme_bx:hover {
     opacity: 0.8;
@@ -673,11 +684,10 @@ img {
     padding-top: 45px;
 }
 
-/* End Titles For All sections*/
+/* End Titles For All Pages*/
 
 
-
-/* Page-content for All Pages (Page.html , Single.html , Category.html) */
+/* Page-content for All Pages (Page.html , Single.html , Blog.html) */
 .page-content {
     display: inline-block;
     width: 100%;
@@ -688,11 +698,10 @@ img {
     border-radius: 20px;
 }
 
-/* End Page-content for (For Page.html , Single.html , Category.html) */
+/* End Page-content for (For Page.html , Single.html , Blog.html) */
 
 
-
-/* Index-blog & pagination (For Category.html) */
+/* Index-blog & pagination (For Blog.html) */
 .index-blog {
     display: inline-block;
     width: 100%;
@@ -713,16 +722,9 @@ span.page_title {
     color: #777;
 }
 
-.index-blog .page_title img {
-    width: 20px;
-    float: left;
-    padding: 3px;
-}
-
 .index-blog .space {
     border-bottom: 1px solid #DFF6FF;
 }
-
 
 .index-blog .posts {
     margin: 3rem;
@@ -751,10 +753,8 @@ span.page_title {
     border-radius: 2rem;
 }
 
-.index-blog .posts .desc button img {
-    width: 20px;
-    float: left;
-    padding-right: 3px;
+.index-blog .posts .desc .meta i {
+    margin-left: 1rem;
 }
 
 .index-blog .posts .desc button:hover {
@@ -762,15 +762,7 @@ span.page_title {
     transition: all 0.3s ease;
 }
 
-.index-blog .posts .desc .meta img {
-
-    width: 15px;
-    float: left;
-    padding-right: 2px;
-}
-
 .index-blog a {
-
     color: #ECFFE6;
 }
 
@@ -801,11 +793,10 @@ span.page_title {
     transition: all 0.3s ease;
 }
 
-/* End Index-blog & pagination (For Category.html)*/
+/* End Index-blog & pagination (For Blog.html)*/
 
 
 /* content_bx Single_content & side_bx (For Single.html)*/
-
 .content_bx img {
     width: 500px;
     height: 500px;
@@ -907,6 +898,15 @@ span.page_title {
     border-bottom: 0;
 }
 
+.side_bx ul li a:before {
+    content: "\f016";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 12px;
+}
+
 /* End Single_content & side_bx (For Single.html) */
 
 
@@ -926,8 +926,6 @@ span.page_title {
     position: absolute;
     top: 0;
     border-radius: 50%;
-    float: right;
-
 }
 
 .search_box form button img {
