@@ -992,7 +992,7 @@ span.page_title {
 /* End Keyframes */
 
 
-/* Media Query For Mobile */
+/* Media Queries for responsiveness */
 @media (max-width: 924px) {
     .cn_endblock {
         width: 85%;
@@ -1079,10 +1079,6 @@ span.page_title {
     font-style: light;
 }
 
-/* End Media Query For Mobile */
-
-
-/* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
     .cta {
         font-size: 2rem;
@@ -1093,7 +1089,6 @@ span.page_title {
         font-size: 3rem;
     }
 
-    /* Project Section */
     #projects .project-item {
         flex-direction: row;
     }
@@ -1117,17 +1112,10 @@ span.page_title {
         height: 100%;
     }
 
-    /* End Project Section */
-
 }
 
-/* End Media Query For Tablet */
-
-
-/* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 
-    /* header responsive */
     #myheader .hamburger {
         display: none;
     }
@@ -1152,18 +1140,13 @@ span.page_title {
         display: none;
     }
 
-    /* End header responsive */
-
-    /*<<< index-blog Post Image in dekstop >>>*/
     .index-blog .posts img {
         float: right;
     }
 
-    /*<<< End index-blog Post Image in dekstop >>>*/
 }
 
-/* End  Media Query For Desktop */
-
+/* End Media Queries for responsiveness */
 
 
 /* 
